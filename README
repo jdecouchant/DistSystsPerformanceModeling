@@ -1,0 +1,12 @@
+# DistSystsPerformanceModeling
+
+This code has been written in order to predict the performance of a distributed system depending on the deployment of its entities on a given architecture. 
+
+Currently, the only distributed system that is described is UpRight (UpRight Cluster Services - SOSP 2009).
+
+Using this code one can:
+- specify the architecture the distributed system will run on 
+- specify the distributed system considered in terms of communications and computations
+- obtain the throughput of the system for a given deployment, or find the best deployment
+
+Constructive comments are welcome. 

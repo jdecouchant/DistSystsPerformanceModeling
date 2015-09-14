@@ -1,0 +1,18 @@
+PerfModelling
+	- Appelle la création d'une architecture à partir d'un fichier de conf: architecture.txt
+	- Appelle la création d'un protocole à partir d'un fichier de conf: protocol.txt
+	- Algorithme de répartition des entités sur une architecture donnée
+	- Procédure d'évaluation des performances d'une architecture après répartition de la charge sur les ressources
+
+Architecture
+	- Lecture d'une architecture à partir d'un fichier de configuration: architecture.txt
+	
+Protocol
+	- Lecture d'un protocole (modules, communications entre modules, et processing par module): protocol.txt
+	- Stockage des modules du protocole représenté dans une structure
+	- Stockage des tâches de processing, et de communications dans des structures
+	
+
+Remarques :
+	- upright: le client n'existe pas dans la représentation existante du protocole. 
+	- comment éviter toutes les configurations où des permutations de configurations déjà trouvées sont étudiées?
